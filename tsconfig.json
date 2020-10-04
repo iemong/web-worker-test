@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["dom", "es5", "es6", "es7", "es2019"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "types": ["@types/node", "@nuxt/types", "nuxt-i18n", "vue-i18n", "@types/jest", "vue-apollo"]
+  },
+  "exclude": ["node_modules"]
+}
